@@ -1,0 +1,14 @@
+{
+    "watch_directory": "C:/Users/*/Downloads",
+    "extension_map": {
+        ".pdf": "Documents",
+        ".docx": "Documents",
+        ".txt": "Documents",
+        ".jpg": "Images",
+        ".png": "Images",
+        ".zip": "Archives",
+        ".rar": "Archives",
+        ".exe": "Installers",
+        ".mp4": "Videos"
+    }
+}
