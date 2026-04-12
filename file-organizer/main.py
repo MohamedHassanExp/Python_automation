@@ -63,7 +63,7 @@ if __name__ == "__main__":
     observer = Observer()
     observer.schedule(event_handler, watch_dir, recursive=False)
 
-    print(f"--- Monitoring: {watch_dir} ---")
+    print(f"Monitoring: {watch_dir}")
     observer.start()
 
     try:
@@ -71,5 +71,5 @@ if __name__ == "__main__":
             time.sleep(1)
     except KeyboardInterrupt:
         observer.stop()
-        print("\n--- Monitoring Stopped ---")
+        print("\nMonitoring Stopped")
     observer.join()
