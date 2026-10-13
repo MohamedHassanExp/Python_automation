@@ -6,3 +6,34 @@
 A Python-based automation utility that continuously monitors a specified directory and automatically moves incoming files into designated subfolders based on a customizable JSON configuration.
 
 ---
+
+##  Table of Contents
+- [About](#about)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Configuration](#configuration)
+- [License](#license)
+
+##  About
+
+This project automates file management by utilizing file system event monitoring. Instead of manually sorting downloads, the script runs in the background and instantly moves created or modified files into predetermined directories based on their file extensions. The sorting rules are fully decoupled from the core logic and managed via a lightweight JSON configuration file.
+
+### Tech Stack
+*   **Language/Framework:** Python
+*   **Libraries:** `watchdog` (for cross-platform file system event monitoring), `json`, `shutil`, `os`
+
+##  Getting Started
+
+Follow these instructions to set up the project locally.
+
+### Prerequisites
+
+*   Python 3.8+
+*   Pip (Python package installer)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/MohamedHassanExp/Python_automation.git](https://github.com/MohamedHassanExp/Python_automation.git)
