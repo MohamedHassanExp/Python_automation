@@ -13,7 +13,8 @@ A Python-based automation utility that continuously monitors a specified directo
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Configuration](#configuration)
-- [License](#license)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
 
 ##  About
 
@@ -37,3 +38,19 @@ Follow these instructions to set up the project locally.
 1. Clone the repository:
    ```bash
    git clone [https://github.com/MohamedHassanExp/Python_automation.git](https://github.com/MohamedHassanExp/Python_automation.git)
+2. Navigate to the project directory
+   ```bash
+   cd Python_automation-main/file-organizer
+3. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+
+### Usage 
+
+Run the main script to start monitoring
+   ```bash
+   python main.py
+
+### configuration
+
+ Define the in the `config.json` file.
