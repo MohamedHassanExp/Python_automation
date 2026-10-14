@@ -12,7 +12,6 @@ A Python-based automation utility that continuously monitors a specified directo
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Configuration](#configuration)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 
@@ -44,13 +43,12 @@ Follow these instructions to set up the project locally.
 3. Install dependencies
    ```bash
    pip install -r requirements.txt
-
+   
 ### Usage 
 
-Run the main script to start monitoring
+ 1. Define the sorting rules in the `config.json` file.
+ 2. Run the main script to start monitoring
    ```bash
    python main.py
 
-### configuration
 
- Define the in the `config.json` file.
