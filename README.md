@@ -34,7 +34,7 @@ Follow these instructions to set up the project locally.
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/MohamedHassanExp/Python_automation.git](https://github.com/MohamedHassanExp/Python_automation.git)
+   git clone https://github.com/MohamedHassanExp/Python_automation.git
 2. Navigate to the project directory
    ```bash
    cd Python_automation-main/file-organizer
