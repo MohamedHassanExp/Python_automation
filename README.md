@@ -12,8 +12,6 @@ A Python-based automation utility that continuously monitors a specified directo
 - [Tech Stack](#tech-stack)
 - [Getting Started](#getting-started)
 - [Usage](#usage)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
 
 ##  About
 
